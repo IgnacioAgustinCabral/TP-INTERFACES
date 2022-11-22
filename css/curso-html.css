@@ -70,6 +70,8 @@ body{
     width: calc(30% - 1.8em);
     background-color: white;
     margin: 2em;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
 }
 
 .titulo {
