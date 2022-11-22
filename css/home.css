@@ -23,13 +23,18 @@ a{
     display: flex;
     flex-direction: row;
     background-color: white;
-    border: 1px solid;
-    box-shadow: 5px 10px #888888;
+    /* border: 1px solid; */
+    /* box-shadow: 5px 10px #888888; */
     width: calc(33% - 0.5em);
     height: calc(33% - 0.5em);
     padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Roboto', sans-serif;
+}
+
+.curso:hover{
+    box-sizing: border-box;
+    background-color: #EEEEEE;
 }
 
 .cursos .curso .icon {
