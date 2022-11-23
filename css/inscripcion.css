@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:ital@1&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.volver{
+    padding-top: 3em;
+}
+
+.volver a{
+    margin-left: 2em;
+    font-size: large;
+    text-decoration: none;
+    color: #1E88E5;
+}
+

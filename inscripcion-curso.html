@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/nav2.css">
+    <link rel="stylesheet" href="./css/inscripcion.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu-navegacion">
+            <a href="./home.html"><i class="fa-solid fa-folder-open"></i>Mis Cursos</a>
+            <a href="./inscripcion-curso.html"><i class="fa-solid fa-pencil"></i>Inscripción a Cursos</a>
+            <a href="./peliculas.html"><i class="fa-solid fa-certificate"></i>Mis Certificados</a>
+            <a href="./profile.html"><i class="fa-solid fa-address-card"></i>Perfil</a>
+            <a id="logout" href="./index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>Cerrar Sesión</a>
+        </nav>
+    </header>
+
+    <div class="volver">
+        <a href="./home.html">
+            <i class="fa-solid fa-left-long"></i>
+        Volver</a>
+    </div>
+
+    <div class="rounded" style="margin-left:2em;margin-right:2em;margin-top: 4em;background-color: #FFFFFF; padding-top: 1em; padding-bottom: 1em;">
+        <div class="input-group mb-3 input-group-lg" style="margin-top:1em;">
+            
+            <label class="input-group-text" 
+            for="inputGroupSelect01"><i class="fa-solid fa-book"></i>Cursos</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>Seleccione un curso...</option>
+                <option value="1">Javascript para principiantes</option>
+                <option value="2">Java Spring</option>
+                <option value="3">Git: Desarrollo colaborativo</option>
+                <option value="1">Python Programming</option>
+                <option value="2">CSS 3</option>
+                <option value="3">Introduccion a HTML 5</option>
+                <option value="1">Programacion orientada a objetos</option>
+                <option value="2">UX/UI</option>
+                <option value="3">Java Full-stack</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3 input-group-lg">
+            <label class="input-group-text" for="inputGroupSelect01"><i class="fa-solid fa-graduation-cap"></i>Modalidad</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>Indistinta</option>
+                <option>Libre</option>
+                <option>Con tutor</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3 input-group-lg">
+            <label class="input-group-text" for="inputGroupSelect01"><i class="fa-solid fa-clock"></i>Turno</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>Indistinta</option>
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3 input-group-lg">
+            <label class="input-group-text" for="inputGroupSelect01"><i class="fa-solid fa-calendar"></i>Fechas disponibles</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>Fecha de inicio</option>
+                <option>23/02/2023 a 23/05/2023</option>
+                <option>11/04/2023 a 12/05/2023</option>
+                <option>12/05/2023 a 12/07/2023</option>
+            </select>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
