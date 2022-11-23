@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:ital@1&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.titulo-principal img{
+    padding: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+.modalidad{
+    border-color: gray;
+}
+
+.mi-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.mi-link:hover{
+    color: inherit;
+}
+
+.card:hover{
+    background-color: #b3b3b3;
+}
+
+.row-opciones{
+    margin-top: 4.5em;
+}
