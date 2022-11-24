@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./imgs/bandit.svg">
+    <link rel="stylesheet" href="./css/contenidos.css">
+    <title>Band-IT</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #175FB2;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./home-resp.html"><img src="./imgs/bandit.svg" alt="logo"
+                    style="width: 70px;height: 70px;">Band-IT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./home-resp.html"><i
+                                class="fa-solid fa-folder-open" style="margin-right:0.5em;color: #E0FA80;"></i>Mis
+                            cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./inscripcion.html" style="color: white;"><i
+                                class="fa-solid fa-pencil" style="margin-right:0.5em;color: #E0FA80;"></i>Inscripción a
+                            Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;"><i class="fa-solid fa-certificate"
+                                style="margin-right:0.5em;color: #E0FA80;"></i>Mis Certificados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;"><i class="fa-solid fa-address-card"
+                                style="margin-right:0.5em;color: #E0FA80;"></i>Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html" style="color: white;"><i
+                                class="fa-solid fa-arrow-right-from-bracket"
+                                style="margin-right:0.5em;color: #E0FA80;"></i>Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h5 class="mi-contenido"><a href="./home-resp.html" style="text-decoration: none; color:#3795E7">Mis cursos</a> > <a
+            href="./curso-html-resp.html" style="text-decoration: none; color:#3795E7">Desarrollo Web con HTML</a> > Contenidos
+    </h5>
+
+
+    <div class="accordion m-5" id="accordionExample">
+        <div class="accordion-item mt-2 mb-2">
+            <h2 class="accordion-header " id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Módulo 1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <h3>Bienvenida al curso de HTML</h3>
+                        <a href="">
+                            <li class="item"><i class="fa-solid fa-sheet-plastic green"></i>Instructivo de instalación</li>
+                        </a>
+                        <a href="">
+                            <li class="item"><i class="fa-solid fa-file-pdf red"></i>Organización del curso</li>
+                        </a>
+                        <a href="">
+                            <li class="item"><i class="fa-solid fa-file-pdf red"></i>Glosario</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mt-2 mb-2">
+            <h2 class="accordion-header " id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Módulo 2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <h3>Mi primer archivo HTML</h3>
+                        <a href=""><li class="item"><i class="fa-solid fa-sheet-plastic green"></i>Introducción a HTML</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-file-pdf red"></i>¿Qué es HTML?</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>¿Qué es la W3C? ¿Quién fija los standards?</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Navegando por la Web</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Estructura básica de mi documento HTML</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mt-2 mb-2">
+            <h2 class="accordion-header " id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Módulo 3
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <h3>Etiquetas HTML</h3>
+                        <a href=""><li class="item"><i class="fa-solid fa-file-pdf red"></i>h1 a h6</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Párrafos</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-file-pdf red"></i>Lista ordenadas y desordenadas</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Semántica HTML</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Nav</li></a>
+                        <a href=""> <li class="item"><i class="fa-solid fa-circle-play blue"></i>La etiqueta div</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item mt-2 mb-2">
+            <h2 class="accordion-header " id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Módulo 4
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <h3>Vínculos</h3>
+                        <a href=""><li class="item"><i class="fa-solid fa-file-pdf red"></i>Trabajando con vínculos</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Qué es un vinculo?</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-file-pdf red"></i>Etiqueta ancla</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Incluyendo Videos</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item mt-2 mb-2">
+            <h2 class="accordion-header " id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Módulo 5
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <h3>Formularios</h3>
+                        <a href=""><li class="item"><i class="fa-solid fa-file-pdf red"></i>Introducción a formularios</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Botones</li></a>
+                        <a href=""> <li class="item"><i class="fa-solid fa-circle-play blue"></i>Inputs</li></a>
+                        <a href=""> <li class="item"><i class="fa-solid fa-circle-play blue"></i>Checkbox</li></a>
+                        <a href=""><li class="item"><i class="fa-solid fa-circle-play blue"></i>Select y Option</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
