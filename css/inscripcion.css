@@ -1,17 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:ital@1&display=swap');
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
+    background-color: #E5E7EB;
 }
 
-.volver{
+.volver {
     padding-top: 3em;
 }
 
-.volver a{
+.volver a {
     margin-left: 2em;
     font-size: large;
     text-decoration: none;
     color: #1E88E5;
 }
 
+
+@media (max-width: 600px) {
+    .wrapping-group:not(#_)>*:first-child {
+        flex: 1 0 100%;
+        border-top-right-radius: 0.25rem;
+        border-bottom-left-radius: 0;
+    }
+
+    .wrapping-group:not(#_)>*:first-child .btn {
+        width: 100%;
+        flex: 1 0 100%;
+        margin-top: -1px;
+        margin-left: 0px;
+    }
+
+    .wrapping-group:not(#_)>*:not(:first-child) {
+        flex: 1 0 100%;
+        margin-top: -1px;
+        margin-left: 0px;
+    }
+
+    .wrapping-group:not(#_)>*.form-control {
+        margin-left: 0;
+    }
+
+    .wrapping-group:not(#_)>*:last-child {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.25rem;
+    }
+}
+
+.mi-inscripcion {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: solid;
+    font-family: 'Roboto', sans-serif;
+}
